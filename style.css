@@ -1,0 +1,152 @@
+
+body{
+	background-image: linear-gradient(to right, white 30% , #8faadc );
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.main-menu{
+    background-color: #44546a;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 20px #d4d4d4;
+
+    width: 30px;
+    height: 100vh;
+
+    position: fixed;
+    top:0;
+    left:0;
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    transition: .3s ease;
+}
+
+.main-menu li {
+	 list-style-type: none;
+	 color: #ffff;
+}	
+
+.main-menu:hover{
+    width : 700px;
+    overflow-y: scroll;
+
+}
+
+.main-menu .menu-item{
+    padding: 10px;
+
+}
+.main-menu .menu-item:hover{
+    cursor: pointer;
+}
+
+.main-menu .menu-item .fa{
+    color: gray;
+    width:40px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.main-menu .menu-item a:hover {
+    color: #8faadc;
+}
+
+.main-menu ul li ul {
+	display:none;
+}	
+.main-menu ul li:hover ul {
+	display:block;
+}	
+
+.main-menu ul li:hover ul ul {
+	display:none;
+}
+
+
+.main-menu ul li ul li:hover ul {
+	display:block;
+
+}
+
+.menu-item a{text-decoration: none; color: white;}
+	
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+    border-radius: 10px;
+  }
+  
+  
+ #main {
+	display: block;
+	background-color: white;
+	padding: 40px;
+	margin-top:60px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 720px;
+	border: 2px solid #44546a;
+}
+
+
+
+.item{
+	text-align:center;
+	display:block;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding-left:auto%;
+	padding-right:auto;
+	color: #2F5496;
+}
+
+.item img{
+	max-width:500px;
+}	
+
+.item2{
+	text-align:center;
+	display:block;
+	background-color: transparent;
+	border: 1px solid transparent;
+	float: right;
+	color: #2F5496;
+}
+
+.voorpagina {
+	float: right;
+	margin-right: 100px;
+}
+
+h1 {
+	text-decoration: none;
+	color: #2F5496;
+	font-weight: normal;
+}	
+
+h2 {
+	text-decoration: none;
+	color: #2F5496;
+	font-weight: normal;
+}	
+
+h3 {
+	text-decoration: none;
+	color: #2F5496;
+	font-weight: normal;
+}	
+
+p {
+	
+}	
